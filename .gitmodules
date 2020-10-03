@@ -1,3 +1,4 @@
 [submodule "Assets/Plugins/unity-aseprite-importer"]
 	path = Assets/Plugins/unity-aseprite-importer
 	url = https://github.com/martinhodler/unity-aseprite-importer.git
+	branch = sprite-editor
