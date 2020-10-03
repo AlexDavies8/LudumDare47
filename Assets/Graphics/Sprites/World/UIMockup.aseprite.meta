@@ -8,22 +8,71 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 25a63327f814cd04cbdbd7e8ae6dfcf9, type: 3}
-  textureSettings:
-    textureType: 8
-    pixelsPerUnit: 16
-    mirror: 0
-    transparentMask: 0
-    transparentColor: {r: 1, g: 0, b: 1, a: 1}
-    meshType: 1
-    extrudeEdges: 1
-    spritePivot: {x: 0.5, y: 0.5}
-    generatePhysics: 1
+  autoGenerationSettings:
+    generationType: 0
+  textureImporterSettings:
+    seamlessCubemap: 0
+    mipmapBias: 0.5
     wrapMode: 1
+    wrapModeU: 0
+    wrapModeV: 0
+    wrapModeW: 0
+    alphaIsTransparency: 1
+    spriteMode: 2
+    spritePixelsPerUnit: 16
+    spriteTessellationDetail: 0
+    spriteExtrude: 1
+    spriteMeshType: 0
+    spriteAlignment: 0
+    spritePivot: {x: 0, y: 0}
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 1
+    aniso: 1
     filterMode: 0
-    tileSize: {x: 32, y: 32}
-    tilePadding: {x: 0, y: 0}
-    tileOffset: {x: 0, y: 0}
+    cubemapConvolution: 0
+    textureType: 8
+    textureShape: 1
+    mipmapFilter: 0
+    mipmapEnabled: 0
+    sRGBTexture: 1
+    fadeOut: 0
+    borderMipmap: 0
+    mipMapsPreserveCoverage: 0
+    mipmapFadeDistanceStart: 1
+    alphaTestReferenceValue: 1
+    convertToNormalMap: 0
+    heightmapScale: 0
+    normalMapFilter: 0
+    alphaSource: 1
+    singleChannelComponent: 0
+    readable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    npotScale: 0
+    generateCubemap: 0
+    mipmapFadeDistanceEnd: 3
   animationSettings: []
   atlas: {instanceID: 0}
-  importType: 0
-  bindType: 0
+  generateAnimations: 0
+  createAnimationAssets: 0
+  animationImportPath: 
+  texture: {instanceID: 0}
+  thumbnail: {instanceID: 0}
+  spriteImportData:
+  - name: UIMockup
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 544
+      width: 640
+      height: 480
+    alignment: 0
+    pivot: {x: 0.5, y: 0.5}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 934726b0b805fb746a6c1ae7fef0eb7a
+  frameCount: 1
+  textureWidth: 1024
+  textureHeight: 1024
+  sprites:
+  - {instanceID: 0}

@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: dff5e7644c70a6b4aab40291561fa6bf
+ScriptedImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8744292842307573814
+    second: UIElements_1
+  - first:
+      213: 2038032196489607726
+    second: UIElements_2
+  - first:
+      213: 4444071716422392739
+    second: UIElements_3
+  - first:
+      213: -1617723035926807461
+    second: UIElements_4
+  - first:
+      213: 6994840034662297689
+    second: UIElements_5
+  - first:
+      213: 3978156490039471001
+    second: UIElements_6
+  - first:
+      213: -632775486944045497
+    second: UIElements_7
+  - first:
+      213: -5864815142529410699
+    second: UIElements_8
+  - first:
+      213: -4721780022907650711
+    second: UIElements_9
+  - first:
+      213: -2222538922689579831
+    second: UIElements_10
+  - first:
+      213: 3752016821854407125
+    second: UIElements_11
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 25a63327f814cd04cbdbd7e8ae6dfcf9, type: 3}
+  autoGenerationSettings:
+    generationType: 0
+  textureImporterSettings:
+    seamlessCubemap: 0
+    mipmapBias: 0.5
+    wrapMode: 1
+    wrapModeU: 0
+    wrapModeV: 0
+    wrapModeW: 0
+    alphaIsTransparency: 1
+    spriteMode: 2
+    spritePixelsPerUnit: 16
+    spriteTessellationDetail: 0
+    spriteExtrude: 1
+    spriteMeshType: 0
+    spriteAlignment: 0
+    spritePivot: {x: 0, y: 0}
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 1
+    aniso: 1
+    filterMode: 0
+    cubemapConvolution: 0
+    textureType: 8
+    textureShape: 1
+    mipmapFilter: 0
+    mipmapEnabled: 0
+    sRGBTexture: 1
+    fadeOut: 0
+    borderMipmap: 0
+    mipMapsPreserveCoverage: 0
+    mipmapFadeDistanceStart: 1
+    alphaTestReferenceValue: 1
+    convertToNormalMap: 0
+    heightmapScale: 0
+    normalMapFilter: 0
+    alphaSource: 1
+    singleChannelComponent: 0
+    readable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    npotScale: 0
+    generateCubemap: 0
+    mipmapFadeDistanceEnd: 3
+  animationSettings: []
+  atlas: {instanceID: 0}
+  generateAnimations: 0
+  createAnimationAssets: 0
+  animationImportPath: 
+  texture: {instanceID: 0}
+  thumbnail: {instanceID: 0}
+  spriteImportData:
+  - name: UIElements_0
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 32
+      height: 32
+    alignment: 0
+    pivot: {x: 0.5, y: 0.5}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 8439f38399662ff498ee07a87e0c2dd7
+  - name: UIElements_1
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 97
+      width: 3
+      height: 30
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 638dbb5c208f95970800000000000000
+  - name: UIElements_2
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 97
+      width: 26
+      height: 30
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: e2a72981c7b884c10800000000000000
+  - name: UIElements_3
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 3ab97bd2ea38cad30800000000000000
+  - name: UIElements_4
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 113
+      width: 14
+      height: 14
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: b5cbd9a4871bc89e0800000000000000
+  - name: UIElements_5
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 8
+      height: 16
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 9503ab683f9a21160800000000000000
+  - name: UIElements_6
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 113
+      width: 6
+      height: 14
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 99ba7b12040453730800000000000000
+  - name: UIElements_7
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 79
+      width: 1
+      height: 16
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 74610261c0ee737f0800000000000000
+  - name: UIElements_8
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 32
+      height: 32
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 579d33473bdfb9ea0800000000000000
+  - name: UIElements_9
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 97
+      width: 3
+      height: 14
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 96dbd03161ed87eb0800000000000000
+  - name: UIElements_10
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 97
+      width: 26
+      height: 14
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 9c4bb9510a4f721e0800000000000000
+  - name: UIElements_11
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 32
+      height: 16
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 5d90ce1ab67d11430800000000000000
+  frameCount: 1
+  textureWidth: 128
+  textureHeight: 128
+  sprites:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
