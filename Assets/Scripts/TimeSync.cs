@@ -6,12 +6,16 @@ using System;
 public class TimeSync : MonoBehaviour
 {
     [SerializeField] private float _bpm = 120;
+    [SerializeField] private int _beatsPerBar = 2;
     public static float BPM;
     public static float Beats { get; private set; }
     public static float DeltaBeat { get; private set; }
 
     static Dictionary<float, CallbackTimer> beatTimers;
     public static Action OnBeat { get; private set; }
+    public float Bpm { get => _bpm; set => _bpm = value; }
+
+    float _prevDSPTime;
 
     private void Awake()
     {
@@ -20,9 +24,11 @@ public class TimeSync : MonoBehaviour
 
     private void Update()
     {
-        BPM = _bpm;
+        float deltaTime = (float)AudioSettings.dspTime - _prevDSPTime;
 
-        DeltaBeat = Time.deltaTime * (_bpm / 60f);
+        BPM = Bpm / _beatsPerBar;
+
+        DeltaBeat = deltaTime * (BPM / 60f);
         Beats += DeltaBeat;
 
         foreach (var interval in beatTimers.Keys)
@@ -34,6 +40,8 @@ public class TimeSync : MonoBehaviour
                 beatTimers[interval].callback(beatTimers[interval].timer);
             }
         }
+
+        _prevDSPTime = (float)AudioSettings.dspTime;
     }
 
     public static void RegisterBeatTimer(float interval, Action<float> callback)
