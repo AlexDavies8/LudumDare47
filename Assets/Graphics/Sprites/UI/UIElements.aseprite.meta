@@ -35,6 +35,27 @@ ScriptedImporter:
   - first:
       213: 3752016821854407125
     second: UIElements_11
+  - first:
+      213: 5687524595573011454
+    second: Note
+  - first:
+      213: 953056384902960398
+    second: DrumNote
+  - first:
+      213: -1488628517207690283
+    second: UIElements_12
+  - first:
+      213: -145808401816936526
+    second: UIElements_13
+  - first:
+      213: 9047942841961285903
+    second: UIElements_14
+  - first:
+      213: -292476657873066356
+    second: UIElements_15
+  - first:
+      213: -5264349513311935306
+    second: UIElements_16
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -236,10 +257,101 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     tessellationDetail: 0
     spriteID: 5d90ce1ab67d11430800000000000000
+  - name: Note
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 91
+      width: 9
+      height: 4
+    alignment: 4
+    pivot: {x: 0, y: 0.5}
+    border: {x: 2, y: 1, z: 1, w: 1}
+    tessellationDetail: 0
+    spriteID: ef33d626c752eee40800000000000000
+  - name: DrumNote
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 8
+      height: 16
+    alignment: 4
+    pivot: {x: 0, y: 0.5}
+    border: {x: 3, y: 2, z: 1, w: 2}
+    tessellationDetail: 0
+    spriteID: e051f098bbfe93d00800000000000000
+  - name: UIElements_12
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 32
+      height: 32
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 5d3b15d2044575be0800000000000000
+  - name: UIElements_13
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 32
+      height: 32
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 2bf1f64f70cf9fdf0800000000000000
+  - name: UIElements_14
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 32
+      height: 32
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: f090423a310c09d70800000000000000
+  - name: UIElements_15
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 32
+      height: 32
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: c86e16e770ae0fbf0800000000000000
+  - name: UIElements_16
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 32
+      height: 32
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 2, y: 2, z: 2, w: 2}
+    tessellationDetail: 0
+    spriteID: 6b4aa85620641f6b0800000000000000
   frameCount: 1
   textureWidth: 128
   textureHeight: 128
   sprites:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
   - {instanceID: 0}
   - {instanceID: 0}
   - {instanceID: 0}

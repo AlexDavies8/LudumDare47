@@ -12,14 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589154f19a080d49b91d099faf92463, type: 3}
   m_Name: Spooky Bells
   m_EditorClassIdentifier: 
-  id: 1
+  id: yellow
   AudioClip: {fileID: 8300000, guid: 9c2c4dc7a40caad4cb3bf78ccc3d7822, type: 3}
   LengthMultiplier: 0.25
   Range: 0
-  Notes: []
-  BackgroundLow: {r: 0.20000002, g: 0.11764707, b: 0.23137257, a: 1}
-  OffLow: {r: 0.3137255, g: 0.18431373, b: 0.3647059, a: 1}
-  OnLow: {r: 0.4431373, g: 0.21568629, b: 0.5254902, a: 1}
-  BackgroundHigh: {r: 0.3137255, g: 0.18431373, b: 0.3647059, a: 1}
-  OffHigh: {r: 0.58431375, g: 0.22352943, b: 0.6666667, a: 1}
-  OnHigh: {r: 0.8470589, g: 0.30980393, b: 0.909804, a: 1}
+  Notes:
+  - time: 8
+    value: 0
+    length: 1
+  - time: 20
+    value: 0
+    length: 1
+  - time: 22
+    value: 0
+    length: 1
+  - time: 24
+    value: 0
+    length: 1
+  BackgroundLow: {r: 0.23137255, g: 0.22960924, b: 0.11764706, a: 1}
+  OffLow: {r: 0.3647059, g: 0.36099672, b: 0.18431373, a: 1}
+  OnLow: {r: 0.5254902, g: 0.5228238, b: 0.21568626, a: 1}
+  BackgroundHigh: {r: 0.3647059, g: 0.35556534, b: 0.18431373, a: 1}
+  OffHigh: {r: 0.6666667, g: 0.6454986, b: 0.22352938, a: 1}
+  OnHigh: {r: 0.9098039, g: 0.8893316, b: 0.3098039, a: 1}

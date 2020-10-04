@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 1333eefedd8ac7a40956b0e615e53685
+ScriptedImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1805158079502305607
+    second: Flag_0
+  - first:
+      213: -477789389410734736
+    second: Flag_1
+  - first:
+      213: -8119871676797884261
+    second: Flag_2
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 25a63327f814cd04cbdbd7e8ae6dfcf9, type: 3}
+  autoGenerationSettings:
+    generationType: 0
+  textureImporterSettings:
+    seamlessCubemap: 0
+    mipmapBias: 0.5
+    wrapMode: 1
+    wrapModeU: 0
+    wrapModeV: 0
+    wrapModeW: 0
+    alphaIsTransparency: 1
+    spriteMode: 2
+    spritePixelsPerUnit: 16
+    spriteTessellationDetail: 0
+    spriteExtrude: 1
+    spriteMeshType: 1
+    spriteAlignment: 0
+    spritePivot: {x: 0, y: 0}
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 1
+    aniso: 1
+    filterMode: 0
+    cubemapConvolution: 0
+    textureType: 8
+    textureShape: 1
+    mipmapFilter: 0
+    mipmapEnabled: 0
+    sRGBTexture: 1
+    fadeOut: 0
+    borderMipmap: 0
+    mipMapsPreserveCoverage: 0
+    mipmapFadeDistanceStart: 1
+    alphaTestReferenceValue: 1
+    convertToNormalMap: 0
+    heightmapScale: 0
+    normalMapFilter: 0
+    alphaSource: 1
+    singleChannelComponent: 0
+    readable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    npotScale: 0
+    generateCubemap: 0
+    mipmapFadeDistanceEnd: 3
+  animationSettings: []
+  atlas: {instanceID: 0}
+  generateAnimations: 0
+  createAnimationAssets: 0
+  animationImportPath: 
+  texture: {instanceID: 0}
+  thumbnail: {instanceID: 0}
+  spriteImportData:
+  - name: Flag
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    alignment: 0
+    pivot: {x: 0.5, y: 0.5}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: ba2dd190fbb6de14690ce209546022b9
+  - name: Flag_0
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 749492c85b53d0910800000000000000
+  - name: Flag_1
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 07de8bee41d8e59f0800000000000000
+  - name: Flag_2
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    alignment: 0
+    pivot: {x: 0, y: 0}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: b98e4ba1bbb605f80800000000000000
+  frameCount: 4
+  textureWidth: 32
+  textureHeight: 32
+  sprites:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}

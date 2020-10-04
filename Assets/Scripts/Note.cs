@@ -7,4 +7,5 @@ public struct Note
 {
     public int time;
     public int value;
+    public int length;
 }

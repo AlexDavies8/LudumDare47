@@ -19,34 +19,49 @@ MonoBehaviour:
   Notes:
   - time: 0
     value: 0
+    length: 1
   - time: 2
     value: 0
+    length: 1
   - time: 4
     value: 0
+    length: 1
   - time: 6
     value: 0
+    length: 1
   - time: 8
     value: 0
+    length: 1
   - time: 10
     value: 0
+    length: 1
   - time: 12
     value: 0
+    length: 1
   - time: 14
     value: 0
+    length: 1
   - time: 16
     value: 0
+    length: 1
   - time: 18
     value: 0
+    length: 1
   - time: 20
     value: 0
+    length: 1
   - time: 22
     value: 0
+    length: 1
   - time: 23
     value: 0
+    length: 1
   - time: 26
     value: 0
+    length: 1
   - time: 30
     value: 0
+    length: 1
   BackgroundLow: {r: 0.20000002, g: 0.11764707, b: 0.23137257, a: 1}
   OffLow: {r: 0.3137255, g: 0.18431373, b: 0.3647059, a: 1}
   OnLow: {r: 0.4431373, g: 0.21568629, b: 0.5254902, a: 1}

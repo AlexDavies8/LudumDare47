@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: ca762f955079fc44f95fd14bcfc66dc4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 25a63327f814cd04cbdbd7e8ae6dfcf9, type: 3}
+  autoGenerationSettings:
+    generationType: 0
+  textureImporterSettings:
+    seamlessCubemap: 0
+    mipmapBias: 0.5
+    wrapMode: 1
+    wrapModeU: 0
+    wrapModeV: 0
+    wrapModeW: 0
+    alphaIsTransparency: 1
+    spriteMode: 2
+    spritePixelsPerUnit: 16
+    spriteTessellationDetail: 0
+    spriteExtrude: 1
+    spriteMeshType: 0
+    spriteAlignment: 0
+    spritePivot: {x: 0, y: 0}
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 1
+    aniso: 1
+    filterMode: 0
+    cubemapConvolution: 0
+    textureType: 8
+    textureShape: 1
+    mipmapFilter: 0
+    mipmapEnabled: 0
+    sRGBTexture: 1
+    fadeOut: 0
+    borderMipmap: 0
+    mipMapsPreserveCoverage: 0
+    mipmapFadeDistanceStart: 1
+    alphaTestReferenceValue: 1
+    convertToNormalMap: 0
+    heightmapScale: 0
+    normalMapFilter: 0
+    alphaSource: 1
+    singleChannelComponent: 0
+    readable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    npotScale: 0
+    generateCubemap: 0
+    mipmapFadeDistanceEnd: 3
+  animationSettings: []
+  atlas: {instanceID: 0}
+  generateAnimations: 0
+  createAnimationAssets: 0
+  animationImportPath: 
+  texture: {instanceID: 0}
+  thumbnail: {instanceID: 0}
+  spriteImportData:
+  - name: UIPanel
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 320
+      height: 480
+    alignment: 0
+    pivot: {x: 0.5, y: 0.5}
+    border: {x: 0, y: 0, z: 0, w: 0}
+    tessellationDetail: 0
+    spriteID: 2462ef94095c75b4a99bbbf71f690cc5
+  frameCount: 1
+  textureWidth: 512
+  textureHeight: 512
+  sprites:
+  - {instanceID: 0}

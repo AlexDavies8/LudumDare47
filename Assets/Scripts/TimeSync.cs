@@ -14,19 +14,22 @@ public class TimeSync : MonoBehaviour
     static Dictionary<float, CallbackTimer> beatTimers;
     public static Action OnBeat { get; private set; }
     public float Bpm { get => _bpm; set => _bpm = value; }
+    public static int BeatsPerBar { get; set; }
 
     float _prevDSPTime;
 
     private void Awake()
     {
         beatTimers = new Dictionary<float, CallbackTimer>();
+        Update();
     }
 
     private void Update()
     {
         float deltaTime = (float)AudioSettings.dspTime - _prevDSPTime;
 
-        BPM = Bpm / _beatsPerBar;
+        BeatsPerBar = _beatsPerBar;
+        BPM = Bpm / BeatsPerBar;
 
         DeltaBeat = deltaTime * (BPM / 60f);
         Beats += DeltaBeat;
@@ -52,7 +55,7 @@ public class TimeSync : MonoBehaviour
         }
         else
         {
-            beatTimers.Add(interval, new CallbackTimer(0, callback));
+            beatTimers.Add(interval, new CallbackTimer(0f, callback));
         }
     }
 

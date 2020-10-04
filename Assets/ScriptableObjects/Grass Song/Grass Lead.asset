@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4589154f19a080d49b91d099faf92463, type: 3}
+  m_Name: Grass Lead
+  m_EditorClassIdentifier: 
+  id: yellow
+  AudioClip: {fileID: 8300000, guid: 7fde209c1b5bc604996d3c8efd115357, type: 3}
+  LengthMultiplier: 0.25
+  Range: 3
+  Notes:
+  - time: 0
+    value: 1
+    length: 1
+  - time: 1
+    value: 0
+    length: 1
+  - time: 2
+    value: 1
+    length: 1
+  - time: 3
+    value: 2
+    length: 1
+  - time: 4
+    value: 3
+    length: 1
+  - time: 8
+    value: 2
+    length: 1
+  - time: 9
+    value: 3
+    length: 1
+  - time: 12
+    value: 3
+    length: 1
+  - time: 13
+    value: 2
+    length: 1
+  - time: 14
+    value: 1
+    length: 1
+  - time: 15
+    value: 2
+    length: 1
+  - time: 24
+    value: 2
+    length: 1
+  - time: 25
+    value: 1
+    length: 1
+  - time: 26
+    value: 2
+    length: 1
+  - time: 28
+    value: 2
+    length: 1
+  BackgroundLow: {r: 0.23137257, g: 0.23137257, b: 0.11764707, a: 1}
+  OffLow: {r: 0.3647059, g: 0.36078432, b: 0.18431373, a: 1}
+  OnLow: {r: 0.5254902, g: 0.52156866, b: 0.21568629, a: 1}
+  BackgroundHigh: {r: 0.3647059, g: 0.35686275, b: 0.18431373, a: 1}
+  OffHigh: {r: 0.6666667, g: 0.64705884, b: 0.22352943, a: 1}
+  OnHigh: {r: 0.909804, g: 0.89019614, b: 0.30980393, a: 1}
